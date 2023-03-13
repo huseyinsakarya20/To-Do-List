@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid yellow;
+    border-radius: 15px;
+}
+
+#clearSubmit{
+     height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: forestgreen;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+#clearSubmit:active{
+    background-color: blue;
+    font-size:30px;
+    text-align: center;
+    color: #fff;
+}
+
+
+#addSubmit{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+#addSubmit:active{
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+}
+
+.paragraph{
+    color: blue;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 0;
+    cursor: pointer;
+}
+
+.to-dos{
+    margin-top: 20px;
+}
